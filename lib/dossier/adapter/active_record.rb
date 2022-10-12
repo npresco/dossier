@@ -31,7 +31,7 @@ module Dossier
             "Dossier::Adapter::ActiveRecord::Connection_#{object_id}"
           end
         end
-        @abstract_class.establish_connection(options)
+        # @abstract_class.establish_connection(options)
         @abstract_class.connection
       end
 
